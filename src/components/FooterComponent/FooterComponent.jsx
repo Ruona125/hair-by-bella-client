@@ -10,7 +10,7 @@ const FooterComponent = () => {
     <footer>
       <div className="footer-wrapper">
         <div>
-          <h2>ShopLyft</h2>
+          <h2>Hairbybella</h2>
           {/* <h3>
             <Link className="footer-link" to="/contact">
               Contact us

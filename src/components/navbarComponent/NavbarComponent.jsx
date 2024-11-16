@@ -24,11 +24,11 @@ const NavbarComponent = () => {
   const handleLogout = () => {
     // Dispatch the logout action
     dispatch(logoutUser());
-    navigate("/login");
+    navigate("/");
   };
 
   useEffect(() => {
-    const url = `http://64.23.187.18:8000/cart/${user._id}`;
+    const url = `https://bucollections-api.onrender.com/cart/${user._id}`;
     const headers = {
       "Content-Type": "application/json",
       Authorization: localStorage.getItem("token"),
@@ -53,8 +53,8 @@ const NavbarComponent = () => {
     <div>
       <nav>
         {/* <ShoppingCartIcon /> */}
-        <img className="app-icon" src={AppIcon} alt="ShopLyft" />
-        <p className="app-name" style={{color:"#fff"}}>ShopLyft</p>
+        <img className="app-icon" src={AppIcon} alt="Hairbybella" />
+        <p className="app-name" style={{color:"#fff"}}>Hairbybella</p>
         <div>
           <ul id="navbar" className={clicked ? "#navbar active" : "navbar"}>
             <li>

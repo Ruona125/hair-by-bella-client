@@ -22,7 +22,7 @@ const HairTreatmentComponent = () => {
   const cartCount = useSelector((state) => state.cart.count);
 
   useEffect(() => {
-    const url = "http://64.23.187.18:8000/accessories";
+    const url = "https://bucollections-api.onrender.com/accessories";
     axios.get(url).then((response) => {
       setProducts(response.data);
       setLoading(false);
@@ -46,7 +46,7 @@ const HairTreatmentComponent = () => {
   }
 
   const addToCart = (productId) => {
-    const url = "http://64.23.187.18:8000/cart"; // Replace with your actual API endpoint.
+    const url = "https://bucollections-api.onrender.com/cart"; // Replace with your actual API endpoint.
     const requestData = {
       userId: user._id,
       products: [{ productId }],
@@ -82,7 +82,7 @@ const HairTreatmentComponent = () => {
   };
 
   const addToWishlist = (productId) => {
-    const url = "http://64.23.187.18:8000/wishlist"; // Replace with your actual API endpoint.
+    const url = "https://bucollections-api.onrender.com/wishlist"; // Replace with your actual API endpoint.
     const requestData = {
       userId: user._id,
       products: [{ productId }],

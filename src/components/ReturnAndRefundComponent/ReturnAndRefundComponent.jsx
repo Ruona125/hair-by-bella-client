@@ -6,10 +6,10 @@ const ReturnAndRefundComponent = () => {
   return (
     <div className="refund-container">
       <div className="refund-wrapper">
-        <h1>ShopLyft Refund and Return Policy</h1>
+        <h1>Hairbybella Refund and Return Policy</h1>
 
         <p>
-          Thank you for shopping at ShopLyft. We appreciate your trust in
+          Thank you for shopping at Hairbybella. We appreciate your trust in
           us, and we are committed to providing you with a satisfying shopping
           experience. Please read the following policy carefully to understand
           our procedures for refunds and returns.
@@ -74,7 +74,7 @@ const ReturnAndRefundComponent = () => {
                 options:
               </li>
               <li>Full refund to the original payment method.</li>
-              <li>ShopLyft store credit for the equivalent amount.</li>
+              <li>Hairbybella store credit for the equivalent amount.</li>
             </ul>
           </li>
         </ul>
@@ -159,7 +159,7 @@ const ReturnAndRefundComponent = () => {
 
         <p>
           <em>
-            Note: ShopLyft reserves the right to amend or update this
+            Note: Hairbybella reserves the right to amend or update this
             policy at any time. Please check our website for the most current
             version.
           </em>

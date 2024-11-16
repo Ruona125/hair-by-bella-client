@@ -25,7 +25,7 @@ const SignUpComponent = () => {
         e.preventDefault();
     
         try {
-          const response = await fetch('http://64.23.187.18:8000/register', {
+          const response = await fetch('https://bucollections-api.onrender.com/register', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -111,7 +111,7 @@ const SignUpComponent = () => {
               </Button>
     
               <br />
-              <Link style={{textDecoration:"none"}} to={"/login"}><p>Already have an account, login</p></Link>
+              <Link style={{textDecoration:"none"}} to={"/"}><p>Already have an account, login</p></Link>
               {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
             </form>
           )}

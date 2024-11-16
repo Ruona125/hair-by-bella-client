@@ -6,7 +6,7 @@ const PrivacyPolicyComponent = () => {
   return (
     <div>
       <center>
-        <h3>ShopLyft Privacy Policy</h3>
+        <h3>Hairbybella Privacy Policy</h3>
       </center>
       <div className="text-content privacy">
       <section>

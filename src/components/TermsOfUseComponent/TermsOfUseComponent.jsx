@@ -6,11 +6,11 @@ const TermsOfUseComponent = () => {
   return (
     <div>
       <center>
-        <h3>Terms of Use for ShopLyft E-Commerce Website</h3>
+        <h3>Terms of Use for Hairbybella E-Commerce Website</h3>
       </center>
       <div className="text-content">
         <h4 className="introduction-header">
-          Welcome to ShopLyft! Before using our website, please read the
+          Welcome to Hairbybella! Before using our website, please read the
           following Terms of Use carefully. By accessing or using our website,
           you agree to be bound by these terms. If you do not agree to these
           terms, please refrain from using our services.
@@ -18,7 +18,7 @@ const TermsOfUseComponent = () => {
         <ol>
           <li>Acceptance of Terms</li>
           <p>
-            By accessing or using the ShopLyft website, you agree to comply
+            By accessing or using the Hairbybella website, you agree to comply
             with and be bound by these Terms of Use, our Privacy Policy, and any
             other policies or guidelines posted on our website.
           </p>
@@ -44,7 +44,7 @@ const TermsOfUseComponent = () => {
           </p>
           <li>Ordering and Payment</li>
           <p>
-            By placing an order on ShopLyft, you agree to provide accurate
+            By placing an order on Hairbybella, you agree to provide accurate
             and complete information about yourself. You are responsible for any
             charges incurred under your account. Payment information will be
             handled securely, but we are not responsible for any unauthorized
@@ -64,26 +64,26 @@ const TermsOfUseComponent = () => {
           <li> User Content</li>
           <p>
             You may submit reviews, comments, and other content on our website.
-            By submitting such content, you grant ShopLyft a non-exclusive,
+            By submitting such content, you grant Hairbybella a non-exclusive,
             royalty-free, perpetual, irrevocable, and fully sublicensable right
             to use, reproduce, modify, adapt, publish, translate, create
             derivative works from, distribute, and display such content.
           </p>
           <li>Intellectual Property</li>
           <p>
-            All content on the ShopLyft website, including text, graphics,
-            logos, images, and software, is the property of ShopLyft or its
+            All content on the Hairbybella website, including text, graphics,
+            logos, images, and software, is the property of Hairbybella or its
             content suppliers and is protected by international copyright laws.
           </p>
           <li>Termination</li>
           <p>
-            ShopLyft reserves the right to terminate or suspend your
+            Hairbybella reserves the right to terminate or suspend your
             account and access to the website at any time for any reason,
             without notice.
           </p>
           <li>Changes to Terms of Use</li>
           <p>
-            ShopLyft reserves the right to modify or update these Terms of
+            Hairbybella reserves the right to modify or update these Terms of
             Use at any time without prior notice. It is your responsibility to
             review these terms periodically.
           </p>

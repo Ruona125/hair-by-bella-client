@@ -14,7 +14,7 @@ const HomeComponent = () => {
   const handleLogout = () => {
     // Dispatch the logout action
     dispatch(logoutUser());
-    navigate("/login");
+    navigate("/");
   };
   const { isAuthenticated, user } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
@@ -24,8 +24,8 @@ const HomeComponent = () => {
       <div className="home-page-wrapper">
         <div className="background-wrapper">
           <div className="text-wrapper">
-            <h1>Welcome To ShopLyft</h1>
-            <Link to={"/login"}>
+            <h1>Welcome To Hairbybella</h1>
+            {/* <Link to={"/"}>
             <Button
             type="submit"
             variant="contained"
@@ -40,7 +40,7 @@ const HomeComponent = () => {
             Login
             
           </Button>
-          </Link>
+          </Link> */}
             {/* <h3>Shop Now</h3> */}
           </div>
         </div>

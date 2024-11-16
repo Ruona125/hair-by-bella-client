@@ -6,7 +6,7 @@ const FaqComponent = () => {
   return (
     <div>
       <div className="text-content faq-content">
-        <h1>How to Place an Order on ShopLyft</h1>
+        <h1>How to Place an Order on Hairbybella</h1>
         <ol>
           <li>Visit our website and browse through our collections.</li>
           <li>

@@ -19,7 +19,7 @@ const ProductsComponent = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    const url = "http://64.23.187.18:8000/product";
+    const url = "https://bucollections-api.onrender.com/product";
     axios.get(url).then((response) => {
       setProducts(response.data);
       setLoading(false);
@@ -43,7 +43,7 @@ const ProductsComponent = () => {
   }
 
   const addToCart = (productId) => {
-    const url = "http://64.23.187.18:8000/cart";
+    const url = "https://bucollections-api.onrender.com/cart";
     const requestData = {
       userId: user._id,
       products: [{ productId }],
@@ -77,7 +77,7 @@ const ProductsComponent = () => {
   };
 
   const addToWishlist = (productId) => {
-    const url = "http://64.23.187.18:8000/wishlist";
+    const url = "https://bucollections-api.onrender.com/wishlist";
     const requestData = {
       userId: user._id,
       products: [{ productId }],
